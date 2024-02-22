@@ -1,0 +1,15 @@
+.banner {
+    margin-bottom: 80px;
+    padding: 120px 0;
+    background-image: url(../../img/work-banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-content {
+    max-width: 560px;
+    padding: 48px 60px;
+    background-color: #FFFFFFD9;
+    border-radius: 30px;
+}

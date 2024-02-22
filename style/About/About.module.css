@@ -1,0 +1,132 @@
+
+
+.about-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.about-left {
+    max-width: 420px;
+    color:#181818;
+}
+
+.about-content {
+    width: max-content;
+    padding: 0 12px;
+    margin-bottom: 20px;
+    background-color: #FFCC4A;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 25px;
+}
+
+.about-title {
+    margin-bottom: 15px;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52.2px;
+}
+
+.about-subtitle {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.about-text {
+    margin-bottom: 40px;
+    color: #595566;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.about-line {
+    margin-bottom: 20px;
+    background-color: #D8D8D8;
+}
+
+.about-info-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-info-left,
+.about-info-right {
+    background-color: #F6F6F6;
+    border-radius: 15px;
+    padding: 12px;
+}
+
+.about-info-line {
+    width: 1px;
+    height: 80px;
+    background-color: #D8D8D8;
+}
+
+.about-info-left-box,
+.about-info-right-box {
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    justify-content: center;
+
+    font-size: 30px;
+    font-weight: 700;
+
+    margin-bottom: 10px;
+}
+
+.about-info-text {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-right-info {
+    position: relative;
+}
+.about-right-bg {
+    position: absolute;
+    z-index: 999;
+}
+.about-right-img {
+    position: absolute;
+    left: -100px;
+    top: 150px;
+}
+
+.about-marketing {
+    position: absolute;
+    left: -50px;
+    top: 290px;
+    z-index: 999;
+
+    background-color: #fff;
+    box-shadow: -5px 22px 26px 0px #5F5F5F40;
+    border-radius: 20px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-marketing-num {
+    border: 5px solid #4EAF4E;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.about-marketing-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #181818;
+    line-height: 23px;
+}

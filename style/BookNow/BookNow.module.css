@@ -1,0 +1,131 @@
+.bookNow {
+    margin-bottom: 120px;
+}
+.bookNow-content {
+    padding: 150px 80px;
+    background-color: #181818;
+    border-radius: 30px;
+}
+.bookNow-box {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bookNow-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.bookNow-left-title {
+    width: max-content;
+    padding: 2px 16px;
+    background-color: #4EAF4E;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bookNow-left-subtitle {
+    max-width: 470px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.bookNow-left-subtitle span {
+    color: #727272;
+}
+
+.bookNow-left-text {
+    max-width: 423px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.tel-number {
+    width: max-content;
+    padding: 16px 21px;
+    background-color: #FFCC4A;
+    border-radius: 42px;
+    border: none;
+    color:#181818;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.tel-number:hover {
+    background-color: #a88019;
+}
+
+.bookNow-right {
+    position: relative;
+}
+
+.bookNow-right::after {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: -10%;
+    top: -10%;
+    background-image: url(../../img/bookNow-img-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bookNow-right-img {
+    position: absolute;
+    top: 13%;
+    left: 0;
+    z-index: 999;
+}
+
+.bookNow-right-img1 {
+    position: absolute;
+    top: -51%;
+    right: 1.5%;
+}
+
+.bookNow-img-1::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #FFCC4A;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+@media screen and (max-width: 990px) {
+    .bookNow-right {
+        display: none;
+    }
+    .bookNow-right-img1 {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        right: -150px;
+    }
+}
+  
+@media screen and (max-width: 810px) {
+    .bookNow-box {
+        grid-template-columns: 1fr;
+    }
+    .bookNow-right-img1 {
+        display: none;
+    }
+}
+
+
+
