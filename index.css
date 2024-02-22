@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.btn-orange {
+  padding: 16px 32px;
+  background-color: #FFCC4A;
+  border-radius: 42px;
+  color: #181818;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  
+}
+
+.btn-black {
+  padding: 16px 32px;
+  background-color: #181818;
+  border-radius: 42px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  position: relative;
+  
+}
+.btn-black::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  transition: .2s linear;
+  border-radius: 42px;
+  opacity: .5;
+}
+.btn-black:hover:after {
+  width: 100%;
+}
+
+
+.btn-while {
+  position: relative;
+  padding: 15px 23px;
+  background-color: #fff;
+  border-radius: 42px;
+  border: 1px solid #C1C1C1;
+  color: #181818;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.btn-while::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  color:#fff;
+  background-color: #181818;
+  transition: .2s linear;
+  border-radius: 42px;
+  opacity: .5;
+}
+
+.btn-while:hover::after {
+  width: 100%;
+  color: #fff;
+}
+
+.yellow-title {
+  width: max-content;
+  padding: 0 15px;
+  margin-bottom: 5px;
+  background-color:#FFCC4A;
+  border-radius: 20px;
+  color: #181818;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.green-title {
+  width: max-content;
+  padding: 0 15px;
+  margin-bottom: 5px;
+  background-color:#4EAF4E;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  margin-bottom: 10px;
+  color: #181818;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.text-style {
+  margin-bottom: 20px;
+  color: #595566;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.6px;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/Banner-page.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 500px;
+}
+
+
+
+.cart {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  top: 100%;
+}
+
+.slider-arrow {
+  padding: 12px 18px;
+  background-color: #F3F3F3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 42px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 990px) {
+  .banner {
+    margin-bottom: 1000px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  
+  .banner {
+    margin-bottom: 1500px;
+  }
+}
+
+
+.btn-gallari-active {
+  color: #FFCC4A;
+}
+
+.btn-gallari {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+
+
